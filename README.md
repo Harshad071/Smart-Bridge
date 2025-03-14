@@ -34,46 +34,8 @@ git clone https://github.com/WongKinYiu/yolov7.git
 cd yolov7
 
 ### 2️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt  
-### 3️⃣ Add Provided Files
-Copy the following files into the YOLOv7 directory:
+Install the required dependencies using `pip`:
 
-📜 flaskaap.py (Flask backend)
-📜 lane.py (Lane detection script)
-📜 hubConfcustom.py (YOLOv7 custom configurations)
-Copy the following HTML files into the templates folder:
-
-📄 ui2.html
-📄 indexproject.html
-📄 videoprojectnew.html
-Modify these files to ensure correct image paths and UI customization.
-
-### 4️⃣ Run the Application
-bash
-Copy
-Edit
-python flaskaap.py  
-Open your browser and navigate to:
-
-cpp
-Copy
-Edit
-http://127.0.0.1:5000/
-📌 Usage
-Upload a traffic video or use a live stream.
-The system will detect lanes and objects in real time.
-View traffic volume estimations on the web interface.
-🛠️ Technologies Used
-YOLOv7: Object detection
-OpenCV: Lane detection using Hough Transform
-Flask: Web framework
-HTML/CSS: UI design
-🤝 Contributions
-Feel free to contribute by submitting pull requests or reporting issues.
-
-📜 License
-This project is open-source under the MIT License.
+```bash
+pip install -r requirements.txt
 
