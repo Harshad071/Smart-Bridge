@@ -33,12 +33,12 @@ TrafficTelligence is an advanced system that leverages machine learning to estim
 git clone https://github.com/WongKinYiu/yolov7.git  
 cd yolov7
 
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt  
-3️⃣ Add Provided Files
+### 3️⃣ Add Provided Files
 Copy the following files into the YOLOv7 directory:
 
 📜 flaskaap.py (Flask backend)
@@ -51,7 +51,7 @@ Copy the following HTML files into the templates folder:
 📄 videoprojectnew.html
 Modify these files to ensure correct image paths and UI customization.
 
-4️⃣ Run the Application
+### 4️⃣ Run the Application
 bash
 Copy
 Edit
